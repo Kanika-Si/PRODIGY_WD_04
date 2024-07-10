@@ -1,0 +1,102 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main-header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 300px;
+    border-bottom: #77b3d4 3px solid;
+}
+
+.main-header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main-header p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.main-header img {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+.main-nav {
+    background: #77b3d4;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.about-section, .projects-section, .skills-section, .contact-section {
+    padding: 20px 0;
+    border-bottom: #ccc 1px solid;
+}
+
+.about-section h2, .projects-section h2, .skills-section h2, .contact-section h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.projects-section .project {
+    margin-bottom: 20px;
+}
+
+.skills-section ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.skills-section ul li {
+    display: inline-block;
+    margin: 0 10px;
+    background: #77b3d4;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main-footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
